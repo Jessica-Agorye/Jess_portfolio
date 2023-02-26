@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jessica Agorye</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/822013ab76.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <p class="logo" style="font-weight: bold; font-size:18px"><span style="color:darkmagenta; font-size: 50px">J</span>essica.</p>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-sharp fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer | Technical Writer</p>
+                <h1>Hi, I'm <span style="color:#ad38bfed">J</span>essica,<br> come with me!</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--................About Section.................-->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-row1">
+                    <img src="/Images/WhatsApp Image 2023-01-18 at 1.38.15 PM.jpeg" alt="">
+                </div>
+                <div class="about-col-row2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt aperiam quis vero veniam. Animi esse blanditiis aut iste mollitia necessitatibus. Officia a dolorem dicta. Non voluptatum aut magni doloribus provident quo veniam consectetur numquam facilis quisquam eveniet, quasi alias minus, quia voluptatibus eum quidem, laudantium cupiditate dolorem assumenda magnam odio. Molestiae velit cumque commodi accusamus facilis sequi, accusantium id. Animi!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span>Web Development</span><br> Web app development</li>
+                            <li><span> Technical Writer</span><br> Technological content creation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Technical Writer</span><br> 2 years</li>
+                            <li><span> Technical Writer</span><br> Technological content creation</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Houdegbe North Amenrican Uni</span><br> Computer Science</li>
+                            <li><span> Technical Writer</span><br> Technological content creation</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </div>
+
+    <!--...........Services..........-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus iure placeat non, optio assumenda excepturi iusto quaerat quos expedita?</p>
+                    <a href="/">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-keyboard"></i>
+                    <h2>Technical Writer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus iure placeat non, optio assumenda excepturi iusto quaerat quos expedita?</p>
+                    <a href="/">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-folder-open"></i>
+                    <h2>Software Documentation</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ducimus iure placeat non, optio assumenda excepturi iusto quaerat quos expedita?</p>
+                    <a href="/">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--................Portfolio.............-->
+    <div  id="portfolio">
+    <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="/Images/undraw_Woman_7500.png" alt="">
+            <div class="layer">
+                <h3>Social Media App</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores omnis doloremque consequuntur</p>
+                <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="/Images/undraw_Woman_7500.png" alt="">
+            <div class="layer">
+                <h3>Louisa Perfumery</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores omnis doloremque consequuntur</p>
+                <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="/Images/undraw_Woman_7500.png" alt="">
+            <div class="layer">
+                <h3>People Counter</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores omnis doloremque consequuntur</p>
+                <a href="/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+        </div>
+    </div>
+    <a href="/" class="btn">See More</a>
+    </div>
+
+    </div>
+
+    <!--..........Contact...........-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-sharp fa-solid fa-paper-plane"></i>contact@jessy.com</p>
+                    <p> <i class="fa-solid fa-phone-volume"></i>09086663333</p>
+                    <div class="social-icons">
+                        <a href="/"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="/"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a href="/"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="/">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </div>
+                    <a href="Images/Agorye Jessica CV - New (2).pdf" download class="btn btn2">Download CV</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy; Jessica. Made with <i class="fa-sharp fa-regular fa-heart"></i> by Easy Tutorials.</p>
+        </div>
+    </div>
+
+
+    
+
+   
+    <script src="/index.js"></script>
+</body>
+</html>
